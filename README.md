@@ -1,6 +1,8 @@
 # docker.sshd
 
-A dockerized SSH server
+A dockerized SSH server. 
+
+This build is a tweaked version of https://docs.docker.com/examples/running_ssh_service/
 
 ## Quickstart
 
