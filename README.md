@@ -13,9 +13,8 @@ Create a container and setup port forwarding (e.g. from host's 10022):
 Start the container, and start a bash shell in order to set root's password:
 
     docker start sshd-1
-    docker exec -i -t sshd-1 bash
+    docker exec -i -t sshd-1 passwd
     ...
-    sshd-1.internal: $ passwd
     
 Afterwards, you can copy your authorized keys into the container, e.g.:
 
